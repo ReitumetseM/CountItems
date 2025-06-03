@@ -13,21 +13,17 @@ A .NET Web API that provides functionality to count occurrences of items in a li
 
 ## API Endpoints
 
-### Count Numbers
-Counts occurrences of numbers in a list.
+### Count Numbers And Strings
+Counts occurrences of numbers or strings in a list.
 
 ```http
 POST /api/count/count-numbers
 Content-Type: application/json
 
-[1, 2, 1, 3, 2, 1]
-'''
-### Count Strings
-Counts occurrences of strings in a list.
-
-```http
 POST /api/count/count
 Content-Type: application/json
+
+[1, 2, 1, 3, 2, 1]
 
 ["apple", "banana", "apple", "cherry", "banana", "apple"]
 
