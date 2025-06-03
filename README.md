@@ -21,5 +21,13 @@ POST /api/count/count-numbers
 Content-Type: application/json
 
 [1, 2, 1, 3, 2, 1]
+'''
+### Count Strings
+Counts occurrences of strings in a list.
 
+```http
+POST /api/count/count
+Content-Type: application/json
+
+["apple", "banana", "apple", "cherry", "banana", "apple"]
 
